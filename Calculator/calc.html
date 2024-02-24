@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="equation">
+                <input type="text" class="text_eqn" id = "eqn" placeholder="0">
+            </div>
+    
+            <div class="buttongroup">
+                <div class="row">
+                    <input type="button" class="calc_btns" id="AC" onclick="clearScreen()" value="AC">
+                    <input type="button" class="calc_btns" onclick="appendValue('DEL')" value="">
+
+                    <input type="button" class="calc_btns" onclick="appendValue('%')" value="%">
+                    <input type="button" class="calc_btns" onclick="appendValue('/')" value="/">
+                   
+                </div>
+                <div class="row">
+                    <input type="button" class="calc_btns" onclick="appendValue('7')" value="7">
+                    <input type="button" class="calc_btns" onclick="appendValue('8')" value="8">
+                    <input type="button" class="calc_btns" onclick="appendValue('9')" value="9">
+                    <input type="button" class="calc_btns" onclick="appendValue('*')" value="*">
+
+                </div>
+                <div class="row">
+                    <input type="button" class="calc_btns" onclick="appendValue('4')" value="4">
+                    <input type="button" class="calc_btns" onclick="appendValue('5')" value="5">
+                    <input type="button" class="calc_btns" onclick="appendValue('6')" value="6">
+                    <input type="button" class="calc_btns" onclick="appendValue('-')" value="-">
+                </div>
+                <div class="row">
+                    <input type="button" class="calc_btns" onclick="appendValue('1')" value="1">
+                    <input type="button" class="calc_btns" onclick="appendValue('2')" value="2">
+                    <input type="button" class="calc_btns" onclick="appendValue('3')" value="3">
+                    <input type="button" class="calc_btns" onclick="appendValue('+')" value="+">
+                </div>
+                <div class="row">
+                    <input type="button" class="calc_btns" onclick="appendValue('00')" value="00">
+                    <input type="button" class="calc_btns" onclick="appendValue('0')" value="0">
+                    <input type="button" class="calc_btns" onclick="appendValue('.')" value=".">
+                    <input type="button" class="calc_btns" onclick="calculate()" value="=">
+                </div>
+           
+           
+          
+            </div>
+           
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

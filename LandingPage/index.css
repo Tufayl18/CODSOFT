@@ -1,0 +1,995 @@
+
+
+/* Show scrollbar track */
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.gym-logo-removebg-preview-1-icon {
+  position: absolute;
+  top: -74px;
+  left: -21px;
+  width: 208px;
+  height: 206px;
+  object-fit: cover;
+}
+.home,
+.pricing,
+.programs,
+.reviews {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 99px;
+  height: 41px;
+}
+.pricing,
+.programs,
+.reviews {
+  top: 2px;
+  left: 149px;
+  width: 181px;
+}
+.pricing,
+.reviews {
+  top: 0;
+  left: 380px;
+  width: 137px;
+  height: 32px;
+}
+.reviews {
+  left: 567px;
+  width: 155px;
+  height: 41px;
+}
+.nav-contents,
+.navbar {
+  position: absolute;
+  top: 29px;
+  left: 644px;
+  width: 722px;
+  height: 43px;
+}
+.navbar {
+  top: 0;
+  left: 0;
+  background-color: #030f01;
+  width: 1440px;
+  height: 82px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-calistoga);
+}
+.ambition {
+  color: var(--color-tomato);
+}
+.span {
+  color: var(--color-whitesmoke);
+}
+.fuel-your-ambition {
+  margin: 0;
+}
+.fuel-your-ambition-container {
+  margin: 0;
+  position: absolute;
+  top: 561px;
+  left: 850px;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 531px;
+  height: 141px;
+  filter: drop-shadow(0 4px 4px #000);
+  color: var(--color-whitesmoke);
+}
+.our-state-of-the-art-facilitie {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.our-state-of-the-art-facilitie-container {
+  position: absolute;
+  top: 393px;
+  left: 45px;
+  font-family: var(--font-cambo);
+  text-align: left;
+  display: inline-block;
+  width: 829px;
+  height: 85px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.at {
+  color: var(--color-white);
+}
+.at-euphoria-we-container {
+  margin: 0;
+  position: absolute;
+  top: 145px;
+  left: 50px;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: left;
+  display: inline-block;
+  width: 769px;
+  height: 130px;
+  filter: drop-shadow(0 4px 4px #000);
+}
+.start-your-7 {
+  position: absolute;
+  top: 13px;
+  left: 11px;
+  display: inline-block;
+  width: 295px;
+  height: 31px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+}
+.trial {
+  position: absolute;
+  top: 278px;
+  left: 53px;
+  background-color: var(--color-tomato);
+  width: 306px;
+  height: 57px;
+  overflow: hidden;
+  text-align: left;
+}
+.machines1 {
+  margin: 0;
+  font-size: var(--font-size-3xl);
+}
+.machines {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  display: inline-block;
+  width: 110px;
+  height: 96px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.divider1 {
+  position: absolute;
+  top: 0;
+  left: 139px;
+  background-color: var(--color-black);
+  width: 1px;
+  height: 135px;
+  overflow: hidden;
+}
+.fitness-programs {
+  position: absolute;
+  top: 34px;
+  left: 163px;
+  display: inline-block;
+  width: 197px;
+  height: 96px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.divider2 {
+  position: absolute;
+  top: 0;
+  left: 384px;
+  background-color: var(--color-black);
+  width: 1px;
+  height: 135px;
+  overflow: hidden;
+}
+.experienced-trainers {
+  position: absolute;
+  top: 31px;
+  left: 414px;
+  display: inline-block;
+  width: 245px;
+  height: 96px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.facilities {
+  position: absolute;
+  top: 541px;
+  left: 45px;
+  width: 659px;
+  height: 135px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-cambo);
+}
+.programmes {
+  position: absolute;
+  top: 812px;
+  left: 590px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  width: 292px;
+  height: 40px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.gold-membership,
+.our-membership-plans {
+  position: absolute;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.our-membership-plans {
+  top: 1549px;
+  left: 556px;
+  font-size: var(--font-size-13xl);
+  width: 389px;
+  height: 40px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+.gold-membership {
+  top: 18px;
+  left: 48px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  text-align: center;
+  width: 202px;
+  height: 26px;
+}
+.checkmark-icon {
+  position: absolute;
+  top: 75px;
+  left: -2px;
+  width: 50px;
+  height: 37px;
+  object-fit: cover;
+}
+.ideal-for-advanced {
+  top: 82px;
+  left: 48px;
+  font-size: var(--font-size-lg);
+  white-space: pre-wrap;
+  width: 240px;
+  height: 23px;
+}
+.access-to-nutrition,
+.ideal-for-advanced,
+.personalized {
+  position: absolute;
+  display: inline-block;
+}
+.access-to-nutrition {
+  top: 127px;
+  left: 23px;
+  font-size: var(--font-size-lg);
+  width: 250px;
+  height: 51px;
+}
+.personalized {
+  top: 7px;
+  left: 14px;
+  width: 106px;
+  height: 23px;
+}
+.personalized-wrapper {
+  position: absolute;
+  top: 193px;
+  left: 18px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 125px;
+  height: 37px;
+  overflow: hidden;
+}
+.expertise {
+  position: absolute;
+  top: 7px;
+  left: 11px;
+  display: inline-block;
+  width: 82px;
+  height: 23px;
+}
+.expertise-wrapper {
+  position: absolute;
+  top: 193px;
+  left: 154px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 104px;
+  height: 37px;
+  overflow: hidden;
+  text-align: center;
+}
+.full-nutrition-plan {
+  position: absolute;
+  top: 7px;
+  left: 24px;
+  display: inline-block;
+  width: 140px;
+  height: 23px;
+}
+.full-nutrition-plan-wrapper {
+  position: absolute;
+  top: 245px;
+  left: 57px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 181px;
+  height: 37px;
+  overflow: hidden;
+}
+.gold-membership-parent {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: var(--br-21xl);
+  background-color: gold;
+  width: 296px;
+  height: 318px;
+  overflow: hidden;
+}
+.buy,
+.buybtn {
+  position: absolute;
+}
+.buy {
+  top: 9px;
+  left: 52px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-calistoga);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 59px;
+  height: 41px;
+  text-shadow: 1px 0 0#fb3531, 0 1px 0#fb3531, -1px 0 0#fb3531, 0-1px 0#fb3531;
+}
+.buybtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato);
+  top: 421px;
+  left: 84px;
+  border-radius: var(--br-6xl);
+  width: 163px;
+  height: 60px;
+  overflow: hidden;
+}
+.per-month {
+  position: absolute;
+  top: 354px;
+  left: 71px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 176px;
+  height: 26px;
+}
+.goldmembership {
+  position: absolute;
+  top: 1677px;
+  left: 557px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-black);
+  box-shadow: 0 4px 40px #000;
+  width: 320px;
+  height: 502px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.best-suited-for,
+.elite-membership {
+  position: absolute;
+  left: 48px;
+  display: inline-block;
+}
+.elite-membership {
+  top: 18px;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  color: var(--color-black);
+  width: 202px;
+  height: 26px;
+}
+.best-suited-for {
+  top: 73px;
+  font-size: var(--font-size-lg);
+  text-align: left;
+  width: 245px;
+  height: 46px;
+}
+.access-to-gym,
+.weekly-mobility-training {
+  position: absolute;
+  display: inline-block;
+  height: 23px;
+}
+.access-to-gym {
+  top: 140px;
+  left: 15px;
+  font-size: var(--font-size-lg);
+  text-align: left;
+  width: 265px;
+}
+.weekly-mobility-training {
+  top: 7px;
+  left: 17px;
+  width: 187px;
+}
+.weekly-mobility-training-wrapper {
+  position: absolute;
+  top: 248px;
+  left: 33px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 223px;
+  height: 37px;
+  overflow: hidden;
+  text-align: left;
+}
+.conditioning {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  display: inline-block;
+  width: 100px;
+  height: 23px;
+}
+.conditioning-wrapper {
+  position: absolute;
+  top: 198px;
+  left: 15px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 124px;
+  height: 37px;
+  overflow: hidden;
+}
+.physio-sessions {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  display: inline-block;
+  width: 127px;
+  height: 23px;
+}
+.physio-sessions-wrapper {
+  position: absolute;
+  top: 198px;
+  left: 148px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 132px;
+  height: 37px;
+  overflow: hidden;
+}
+.elite-membership-parent {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: var(--br-21xl);
+  background-color: #e26c7e;
+  width: 296px;
+  height: 318px;
+  overflow: hidden;
+}
+.per-month1 {
+  position: absolute;
+  top: 349px;
+  left: 63px;
+  font-size: var(--font-size-xl);
+  text-align: left;
+  display: inline-block;
+  width: 175px;
+  height: 26px;
+}
+.elitemembership {
+  position: absolute;
+  top: 1677px;
+  left: 963px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-black);
+  box-shadow: 0 4px 40px #000;
+  width: 320px;
+  height: 502px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.silver-membership {
+  position: absolute;
+  top: 18px;
+  left: 48px;
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 215px;
+  height: 26px;
+}
+.access-to-all,
+.consultation,
+.perfect-for-beginners {
+  position: absolute;
+  top: 73px;
+  left: 48px;
+  display: inline-block;
+  width: 231px;
+  height: 46px;
+}
+.access-to-all,
+.consultation {
+  top: 148px;
+  left: 23px;
+  width: 265px;
+  height: 23px;
+}
+.consultation {
+  top: 7px;
+  left: 14px;
+  width: 125px;
+}
+.consultation-wrapper {
+  position: absolute;
+  top: 200px;
+  left: 72px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 152px;
+  height: 37px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.free-tshirt {
+  position: absolute;
+  top: 7px;
+  left: 35px;
+  display: inline-block;
+  width: 82px;
+  height: 23px;
+}
+.free-tshirt-wrapper {
+  position: absolute;
+  top: 252px;
+  left: 72px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-black);
+  width: 152px;
+  height: 37px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.silver-membership-parent {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: var(--br-21xl);
+  background-color: silver;
+  width: 296px;
+  height: 318px;
+  overflow: hidden;
+}
+.buy2,
+.buybtn2 {
+  position: absolute;
+}
+.buy2 {
+  top: 9px;
+  left: 52px;
+  display: inline-block;
+  width: 59px;
+  height: 41px;
+  text-shadow: 1px 0 0#fb3531, 0 1px 0#fb3531, -1px 0 0#fb3531, 0-1px 0#fb3531;
+}
+.buybtn2 {
+  top: 421px;
+  left: 84px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-tomato);
+  width: 163px;
+  height: 60px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.per-month2 {
+  position: absolute;
+  top: 352px;
+  left: 73px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 174px;
+  height: 31px;
+}
+.silvermembership {
+  position: absolute;
+  top: 1677px;
+  left: 151px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-black);
+  box-shadow: 0 4px 40px #000;
+  width: 320px;
+  height: 502px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.strengthtraining-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 310px;
+  height: 211px;
+  object-fit: cover;
+}
+.strength-training {
+  position: absolute;
+  top: 8px;
+  left: 54px;
+  display: inline-block;
+  width: 203px;
+  height: 41px;
+}
+.st {
+  top: 211px;
+  left: 0;
+  background-color: var(--color-tomato);
+  height: 49px;
+  overflow: hidden;
+}
+.cardio-icon,
+.program,
+.st {
+  position: absolute;
+  width: 310px;
+}
+.program {
+  top: 886px;
+  left: 189px;
+  box-shadow: 0 4px 40px #000;
+  height: 260px;
+  overflow: hidden;
+  text-align: left;
+}
+.cardio-icon {
+  left: 0;
+  height: 206.3px;
+  object-fit: cover;
+}
+.cardiovascular-activity {
+  position: absolute;
+  top: 9px;
+  left: 34px;
+  display: inline-block;
+  width: 264px;
+  height: 31px;
+}
+.program1,
+.zumba-icon {
+  position: absolute;
+  width: 310px;
+}
+.program1 {
+  top: 886px;
+  left: 581px;
+  box-shadow: 0 4px 40px #000;
+  height: 260px;
+  overflow: hidden;
+  text-align: left;
+}
+.zumba-icon {
+  top: 1px;
+  left: 0;
+  height: 210px;
+  object-fit: cover;
+}
+.program2,
+.program3 {
+  position: absolute;
+  top: 886px;
+  left: 973px;
+  box-shadow: 0 4px 40px #000;
+  width: 310px;
+  height: 260px;
+  overflow: hidden;
+}
+.program3 {
+  top: 1173px;
+  left: 189px;
+}
+.crossfit-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 311px;
+  height: 211px;
+  object-fit: cover;
+}
+.program4 {
+  position: absolute;
+  top: 1173px;
+  left: 581px;
+  box-shadow: 0 4px 40px #000;
+  width: 310px;
+  height: 260px;
+  overflow: hidden;
+}
+.personaltraining-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 310px;
+  height: 219px;
+  object-fit: cover;
+}
+.program5 {
+  position: absolute;
+  top: 1173px;
+  left: 973px;
+  box-shadow: 0 4px 40px #000;
+  width: 310px;
+  height: 260px;
+  overflow: hidden;
+}
+.ac61a943cb93da024ad4bcf47334b6-icon,
+.pfp-1-icon {
+  position: absolute;
+  top: 172px;
+  left: 833px;
+  width: 561px;
+  height: 344px;
+  object-fit: cover;
+}
+.pfp-1-icon {
+  top: 2476px;
+  left: 177px;
+  border-radius: 281.5px;
+  width: 58px;
+  height: 61px;
+}
+.what-people-say {
+  position: absolute;
+  top: 2317px;
+  left: 542px;
+  font-size: var(--font-size-13xl);
+  text-transform: uppercase;
+  display: inline-block;
+  width: 448px;
+  height: 40px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+}
+.star-icon {
+  position: absolute;
+  top: 2537px;
+  left: 177px;
+  width: 25px;
+  height: 33px;
+  object-fit: cover;
+}
+.star-icon1,
+.star-icon2,
+.star-icon3,
+.star-icon4,
+.star-icon5,
+.star-icon6 {
+  position: absolute;
+  top: 2537px;
+  left: 201px;
+  width: 25px;
+  height: 33px;
+  object-fit: cover;
+}
+.star-icon2,
+.star-icon3,
+.star-icon4,
+.star-icon5,
+.star-icon6 {
+  left: 226px;
+}
+.star-icon3,
+.star-icon4,
+.star-icon5,
+.star-icon6 {
+  left: 250px;
+}
+.star-icon4,
+.star-icon5,
+.star-icon6 {
+  left: 277px;
+}
+.star-icon5,
+.star-icon6 {
+  left: 996px;
+}
+.star-icon6 {
+  left: 1020px;
+}
+.star-icon10,
+.star-icon11,
+.star-icon12,
+.star-icon7,
+.star-icon8,
+.star-icon9 {
+  position: absolute;
+  top: 2537px;
+  left: 1045px;
+  width: 25px;
+  height: 33px;
+  object-fit: cover;
+}
+.star-icon10,
+.star-icon11,
+.star-icon12,
+.star-icon8,
+.star-icon9 {
+  left: 1069px;
+}
+.star-icon10,
+.star-icon11,
+.star-icon12,
+.star-icon9 {
+  left: 579px;
+}
+.star-icon10,
+.star-icon11,
+.star-icon12 {
+  left: 603px;
+}
+.star-icon11,
+.star-icon12 {
+  left: 628px;
+}
+.star-icon12 {
+  left: 652px;
+}
+.pfp2-icon {
+  top: 2476px;
+  left: 579px;
+  border-radius: var(--br-263xl);
+  width: 58px;
+  height: 61px;
+}
+.pfp2-icon,
+.pfp3-icon,
+.star-half-empty {
+  position: absolute;
+  object-fit: cover;
+}
+.pfp3-icon {
+  top: 2476px;
+  left: 996px;
+  border-radius: var(--br-263xl);
+  width: 58px;
+  height: 61px;
+}
+.star-half-empty {
+  top: 2537px;
+  left: 1096px;
+  width: 25px;
+  height: 33px;
+}
+.as-someone-who,
+.ive-been-a {
+  position: absolute;
+  top: 2587px;
+  font-family: var(--font-cambo);
+  display: inline-block;
+  width: 342px;
+}
+.ive-been-a {
+  left: 180px;
+  font-size: var(--font-size-xl);
+  text-align: justify;
+  height: 219px;
+}
+.as-someone-who {
+  left: 581px;
+  height: 215px;
+}
+.as-someone-who,
+.david-anderson,
+.emily-james,
+.i-cant-say {
+  font-size: var(--font-size-xl);
+  text-align: justify;
+}
+.i-cant-say {
+  position: absolute;
+  top: 2587px;
+  left: 998px;
+  font-family: var(--font-cambo);
+  display: inline-block;
+  width: 342px;
+  height: 219px;
+}
+.david-anderson,
+.emily-james {
+  width: 159px;
+  height: 33px;
+}
+.david-anderson {
+  position: absolute;
+  top: 2829px;
+  left: 180px;
+  display: inline-block;
+}
+.emily-james {
+  top: 2832px;
+  left: 581px;
+}
+.emily-james,
+.euphoriacom,
+.marcus-root {
+  position: absolute;
+  display: inline-block;
+}
+.marcus-root {
+  top: 2829px;
+  left: 998px;
+  font-size: var(--font-size-xl);
+  text-align: justify;
+  width: 159px;
+  height: 33px;
+}
+.euphoriacom {
+  top: 11px;
+  left: 623px;
+  width: 170px;
+  height: 26px;
+}
+.copyright-icon {
+  position: absolute;
+  top: 14px;
+  left: 769px;
+  width: 48px;
+  height: 26px;
+  object-fit: cover;
+}
+.footer {
+  position: absolute;
+  top: 2980px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 52px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-calistoga);
+}
+.facebook-icon,
+.instagram-icon {
+  top: 0;
+  width: 60px;
+  object-fit: cover;
+}
+.instagram-icon {
+  position: absolute;
+  left: 0;
+  height: 50px;
+}
+.facebook-icon {
+  left: 61px;
+}
+.facebook-icon,
+.sm,
+.twitterx-icon {
+  position: absolute;
+  height: 50px;
+}
+.twitterx-icon {
+  top: 0;
+  left: 124px;
+  width: 60px;
+  object-fit: cover;
+}
+.sm {
+  top: 2923px;
+  left: 1213px;
+  width: 200px;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: rgba(165, 31, 31, 0.815);
+  height: 3032px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white)
+  ;
+  font-family: var(--font-calistoga);
+}

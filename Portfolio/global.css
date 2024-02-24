@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-impact: Impact;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-indianred: #af5353;
+  --color-darkgray: #a4a4a4;
+  --color-brown: #9c3c3c;
+
+  /* Gaps */
+  --gap-8xl: 27px;
+  --gap-6xl: 25px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+}
